@@ -49,4 +49,41 @@ This repository is meant to make ARIA nachvollziehbar through:
 
 ARIA is the first visible prototype.
 
-DEIS is the next development step that builds on the same general direction while moving further toward a more advanced architecture.
+DEIS is an experimental evolution of my previous work on A.R.I.A.
+The focus lies on a proprietary system architecture centered around memory, state, identity, and deterministic processes — without an LLM at its core.
+The Objective
+
+DEIS is neither a classic chatbot nor a mere demo. It is a prototype for a system that does not just output information, but internally structures, stores, and maintains it over time.
+
+Current capabilities include:
+
+    A proprietary storage and indexing structure.
+
+    State logic for persistent behavior.
+
+    The development of a clear runtime architecture.
+
+    The foundation for a system with recognizable behavior and context.
+
+Status
+
+The project is currently in active development. A.R.I.A. was the first visible prototype; DEIS is the next step toward a more advanced architecture.
+What is documented here
+
+In this repository, I showcase:
+
+    The conceptual status.
+
+    The architecture.
+
+    Demos and visual examples.
+
+    Development progress.
+
+Please note: The source code itself remains private for the time being.
+Goal
+
+The goal of DEIS is to build a system that does not just react, but operates with internal consistency, maintains context, and is capable of evolving over time.
+Notice
+
+This project is experimental and not yet final. I am intentionally publishing only the current status, the direction, and the ongoing development here.
