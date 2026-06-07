@@ -1,92 +1,113 @@
-# ARIA
+ARIA
 
-ARIA is the first public prototype of my broader system direction.
+ARIA ist der erste öffentliche Prototyp meiner größeren Systemrichtung.
+Es ist kein klassischer Chatbot-Wrapper.
+ARIA basiert auf persistentem Gedächtnis, internem Zustand, strukturierter Wiederauffindung, identitätsbezogenen Systemschichten und deterministischen Verarbeitungskomponenten, die über ein einfaches Prompt-Response-Verhalten hinausgehen.
+Was ARIA ist
 
-It is not a standard chatbot wrapper.  
-ARIA is built around persistent memory, internal state, structured retrieval, identity-related system layers, and deterministic processing components that go beyond simple prompt/response behavior.
+ARIA wurde als experimenteller Prototyp entwickelt, um eine andere Art von interaktiver Systemarchitektur zu erforschen.
+Statt Interaktion als isolierte Chat-Ausgabe zu behandeln, ist ARIA aufgebaut um:
 
-## What ARIA is
+    persistente Memory-Container,
 
-ARIA was created as an experimental prototype to explore a different kind of interactive system architecture.
+    interne State- und Profilschichten,
 
-Instead of treating interaction as isolated chat output, ARIA is designed around:
-- persistent memory containers,
-- internal state and profile layers,
-- memory retrieval and scoring,
-- rule-based and deterministic processing,
-- graph-linked memory structures,
-- long-term architectural continuity.
+    Memory-Retrieval und Scoring,
 
-## What currently exists
+    regelbasierte und deterministische Verarbeitung,
 
-The current ARIA prototype already includes:
-- a structured memory store with multiple containers,
-- memory indexing and retrieval logic,
-- semantic tag/query processing,
-- turn processing with reply planning,
-- state/profile layers for internal system context,
-- command handling,
-- goal and wish-related system components,
-- graph-based memory visualization,
-- editor and control interfaces for internal system structures.
+    graphbasierte Memory-Strukturen,
 
-## Why there is no public source code
+    langfristige architektonische Kontinuität.
 
-The source code is not public at this stage.
+Was derzeit existiert
 
-This repository exists to document the system direction, architecture, demo material, and current development state in a way that is understandable without exposing the core implementation.
+Der aktuelle ARIA-Prototyp enthält bereits:
 
-## What this repository shows
+    einen strukturierten Memory-Store mit mehreren Containern,
 
-This repository is meant to make ARIA nachvollziehbar through:
-- architecture notes,
-- system overviews,
-- development status,
-- visual material,
-- selected technical descriptions.
+    Memory-Indexierung und Retrieval-Logik,
 
-## Relation to DEIS
+    semantische Tag-/Query-Verarbeitung,
 
-ARIA is the first visible prototype.
+    Turn-Processing mit Reply-Planung,
 
-<img width="1774" height="887" alt="grafik" src="https://github.com/user-attachments/assets/3a994014-41d9-423f-9b4a-3c29b5eca885" />
+    State-/Profil-Schichten für internen Systemkontext,
+
+    Command-Handling,
+
+    ziel- und wunschbezogene Systemkomponenten,
+
+    graphbasierte Memory-Visualisierung,
+
+    Editor- und Steueroberflächen für interne Systemstrukturen.
+
+Warum der Quellcode nicht öffentlich ist
+
+Der Quellcode ist in dieser Phase nicht öffentlich.
+Dieses Repository dient dazu, die Systemrichtung, Architektur, Demos und den aktuellen Entwicklungsstand nachvollziehbar zu dokumentieren, ohne die Kernimplementierung offenzulegen.
+Was dieses Repository zeigt
+
+Dieses Repository soll ARIA nachvollziehbar machen durch:
+
+    Architekturhinweise,
+
+    Systemübersichten,
+
+    Entwicklungsstatus,
+
+    visuelles Material,
+
+    ausgewählte technische Beschreibungen.
+
+Bezug zu DEIS
+
+ARIA ist der erste sichtbare Prototyp.
+
+<img width="1774" height="887" alt="grafik" src="https://github.com/user-attachments/assets/3e8087cb-d890-42a7-9d34-a88df329ae07" />
 
 
-DEIS is an experimental evolution of my previous work on A.R.I.A.
-The focus lies on a proprietary system architecture centered around memory, state, identity, and deterministic processes — without an LLM at its core.
-The Objective
+DEIS ist eine experimentelle Weiterentwicklung meiner bisherigen Arbeit an A.R.I.A. Der Fokus liegt auf einer proprietären Systemarchitektur rund um Memory, State, Identität und deterministische Prozesse — ohne LLM im Kern.
+Ziel von DEIS
 
-DEIS is neither a classic chatbot nor a mere demo. It is a prototype for a system that does not just output information, but internally structures, stores, and maintains it over time.
+DEIS ist weder ein klassischer Chatbot noch nur eine Demo.
+Es ist ein Prototyp für ein System, das Informationen nicht nur ausgibt, sondern sie intern strukturiert, speichert und über Zeit erhält.
 
-Current capabilities include:
+Der aktuelle Stand umfasst unter anderem:
 
-    A proprietary storage and indexing structure.
+    eine proprietäre Speicher- und Indexstruktur,
 
-    State logic for persistent behavior.
+    Zustandslogik für persistentes Verhalten,
 
-    The development of a clear runtime architecture.
+    den Aufbau einer klaren Runtime-Architektur,
 
-    The foundation for a system with recognizable behavior and context.
+    die Grundlage für ein System mit wiedererkennbarem Verhalten und Kontext.
 
 Status
 
-The project is currently in active development. A.R.I.A. was the first visible prototype; DEIS is the next step toward a more advanced architecture.
-What is documented here
+Das Projekt befindet sich derzeit in aktiver Entwicklung.
+A.R.I.A. war der erste sichtbare Prototyp; DEIS ist der nächste Schritt in Richtung einer weiterentwickelten Architektur.
+Was hier dokumentiert wird
 
-In this repository, I showcase:
+In diesem Repository zeige ich:
 
-    The conceptual status.
+    den konzeptionellen Stand,
 
-    The architecture.
+    die Architektur,
 
-    Demos and visual examples.
+    Demos und visuelle Beispiele,
 
-    Development progress.
+    den Entwicklungsfortschritt.
 
-Please note: The source code itself remains private for the time being.
-Goal
 
-The goal of DEIS is to build a system that does not just react, but operates with internal consistency, maintains context, and is capable of evolving over time.
-Notice
+<img width="1717" height="916" alt="grafik" src="https://github.com/user-attachments/assets/f24ceb6b-4485-46ab-ac3b-0b8a9f1a5155" />
 
-This project is experimental and not yet final. I am intentionally publishing only the current status, the direction, and the ongoing development here.
+
+Der Quellcode selbst bleibt vorerst privat.
+Ziel
+
+Das Ziel von DEIS ist es, ein System zu bauen, das nicht nur reagiert, sondern intern konsistent arbeitet, Kontext trägt und sich über Zeit weiterentwickeln kann.
+Hinweis
+
+Dieses Projekt ist experimentell und noch nicht final.
+Ich veröffentliche hier bewusst nur den aktuellen Stand, die Richtung und die laufende Entwicklung.
