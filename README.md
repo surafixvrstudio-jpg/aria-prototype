@@ -49,6 +49,9 @@ This repository is meant to make ARIA nachvollziehbar through:
 
 ARIA is the first visible prototype.
 
+<img width="1774" height="887" alt="grafik" src="https://github.com/user-attachments/assets/3a994014-41d9-423f-9b4a-3c29b5eca885" />
+
+
 DEIS is an experimental evolution of my previous work on A.R.I.A.
 The focus lies on a proprietary system architecture centered around memory, state, identity, and deterministic processes — without an LLM at its core.
 The Objective
