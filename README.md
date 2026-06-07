@@ -60,9 +60,7 @@ Dieses Repository soll ARIA nachvollziehbar machen durch:
 
     ausgewählte technische Beschreibungen.
 
-Bezug zu DEIS
 
-ARIA ist der erste sichtbare Prototyp.
 
 <img width="1774" height="887" alt="grafik" src="https://github.com/user-attachments/assets/3e8087cb-d890-42a7-9d34-a88df329ae07" />
 
