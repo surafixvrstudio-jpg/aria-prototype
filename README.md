@@ -67,6 +67,8 @@ ARIA ist der erste sichtbare Prototyp.
 <img width="1774" height="887" alt="grafik" src="https://github.com/user-attachments/assets/3e8087cb-d890-42a7-9d34-a88df329ae07" />
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 DEIS ist eine experimentelle Weiterentwicklung meiner bisherigen Arbeit an A.R.I.A. Der Fokus liegt auf einer proprietären Systemarchitektur rund um Memory, State, Identität und deterministische Prozesse — ohne LLM im Kern.
 Ziel von DEIS
 
